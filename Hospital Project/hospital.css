@@ -1,20 +1,20 @@
 body {margin:0;}
 
 .navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    justify-content:left !important;
 }
 
 .navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: 17px;
 }
 
@@ -48,23 +48,24 @@ body {margin:0;}
 }
 
 .image-primary {
-    position: absolute;
+    /* position: relative; */
     background-repeat: "cover";
-    max-height: 38rem;
+    max-height: 30rem;
+    margin-top: 80px;
 }
 
 .img-pr {
 
     /* position: absolute; */
     /* border: black solid; */
-    height: 610px;
+    height: 570px;
     width: 90%;
     /* position: absolute;
     background-repeat: "cover";
     max-height: 25rem; */
 }
 .textmain{
-    color: #ddd;
+    color: white;
     font-size: 40px;
     margin-top: 150px;
     margin-left: 50px;
@@ -76,8 +77,8 @@ body {margin:0;}
     margin-left: 70px
 }
 .btn-primary{
-    margin-top: 100px;
-    margin-left: 70px;
+    margin-top: 100px !important;
+    margin-left: 70px !important;
     background-color:white ;
     color: blue;
 }
@@ -88,3 +89,93 @@ body {margin:0;}
     border: white solid 2px;
     color: blue;
 }
+.section2{
+    background-color: #ECECEC;
+}
+.col-4{
+    color: #1589FF;
+    margin-top: 100px;
+    font-family:Fantasy;
+    font-size: 20px;
+}
+.our{
+    margin-top: 100px;
+}
+.section2h{
+    color: black;
+    font-size: 30px;
+}
+.section2p{
+    color: #ACACAC;
+    font-size: 20px;
+}
+.section2Div2{
+    color: black;
+    margin-top: 50px;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 50%;
+  }
+  i{
+    color: #1589FF;
+    font-size: 50px;
+  }
+  .col-8{
+      margin-top: 100px;
+  }
+  .section2p2{
+      padding: 10px;
+      font-size: 15px;
+  }
+  .section2h2{
+      margin-left: 10px;
+      margin-top: 30px;;
+
+  }
+  .picDiv{
+    color: black;
+    font-family: arial;
+    font-size: 15px;
+    margin: 10px 30px;
+  }
+  .picHeard{
+    color: black;
+    margin:20px 30px;
+  }
+  .imgu1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+  }
+  .small{
+    float: right;
+    font-size: 10px;
+    text-align: left;
+    margin-right: 50px;
+  }
+  ul{
+    list-style-type:none;
+    color: #6c757d ;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: white;
+  }

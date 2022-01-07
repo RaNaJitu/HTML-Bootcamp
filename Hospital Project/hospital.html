@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawsome link -->
+    <script src="https://kit.fontawesome.com/fc3fe7059c.js" crossorigin="anonymous"></script>
     <!-- add the css -->
     <link rel="stylesheet" href="hospital.css">
     <!-- bootstrap CDN -->
@@ -11,22 +13,21 @@
     <title>Covin Pro Hospital</title>
 </head>
 <body>
-    <header class="navbar">
-            <a href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <button class="btn btn-danger">Buy now</button>
-    </header>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </div>
     <div class="main">
         <main class="container w-100">
             <div class="row">
                 <div class="col-6 img-pr">
-                    <img src="banner.png" class="image-primary">
+                    <img src="images/banner.png" class="image-primary">
                 </div>
                 <div class="col-6 text">
-                    <h1 class=textmain>
+                    <h1 class="textmain">
                         We provide <b style="color:#ffc40c;">medical</b> <br/>services that you can trust!
-                        <p class="textpara" style="color:#808080; font-size: 20px; margin-top: 30px;margin-left: 30px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        <p class="textpara" style="color:#F0FFFF;opacity: 0.5; font-size: 20px; margin-top: 30px;margin-left: 0px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.</p>
                         <button class="btn btn-primary">GET STARTED</button>
                         <button class="btn btn-success">GET APPOINTMENT</button>
@@ -35,48 +36,232 @@
                 </div>
             </div> 
         </main>
-    </div>        
-        <div class="container">
+    </div>  
+    <div class="section2">
+        <div class="container ">
             <div class=row>
-                <div class="col-4">
-                    <h6>OUR SERVICES</h6>
+                <div class="col-4" style="margin-top: 100px;">
+                    <span class="our">OUR SERVICES</span>
                     <div>
-                        <h3>
+                        <h3 class="section2h">
                             We are always ready to help you & your family
                         </h3>
-                        <p>
+                        <p class="section2p">
                             Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts
                         </p>
                     </div>
                 </div>
-                <div class="col-8">  
-                    <div>
-                        <h6>General Treatment</h6>
-                        <p>
+                <div class="col-8 section2Div2" style="margin-top: 100px;">  
+                    <div class="responsive">
+                        <i class="fab fa-leanpub"></i>
+                        <h5 class="section2h2">General Treatment</h5>
+                        <p class="section2p2">
                             Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
                         </p>
                     </div>
-                    <div>
-                        <h6>Ear Treatment</h6>
-                        <p>
+                    <div class="responsive">
+                        <i class="fas fa-clinic-medical"></i>
+                        <h5 class="section2h2">Ear Treatment</h5>
+                        <p class="section2p2">
                             Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
                         </p>
                     </div>
-                    <div>
-                        <h6>Vision Problems</h6>
-                        <p>
+                    <div class="responsive">
+                        <i class="fas fa-clinic-medical"></i>
+                        <h5 class="section2h2">Vision Problems</h5>
+                        <p class="section2p2">
                             Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
                         </p>
                     </div>
-                    <div>
-                        <h6>Heart Surgery</h6>
-                        <p>
+                    <div class="responsive">
+                        <i class="fab fa-leanpub"></i>
+                        <h5 class="section2h2">Heart Surgery</h5>
+                        <p class="section2p2">
                             Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+    </div>  
+    <!-- TESTIMONIAL -->
+    <div>
+        <center>
+            <h6 style="color:blue;margin-top:100px">TESTIMONIAL</h6>
+            <div>
+                <h2 style="margin-top: 20px;">What our patients say about <br> our treatments </h2>
+            </div>
+        </center>
+        
+        <div class="container">
+            <div class="row" style="font-family: Cambria;margin-top: 50px;">
+                <div class="col-4">
+                    <p>
+                        "I was impressed with how beautiful and clean this property was. The owner definitely goes the extra mile to help their guests!"
+                    </p>
+                    <span style="color: black;"><b>Adam Hall</b></span>
+                    <p style="color:#CACACA;font-size: 18px;">Lisbon, Portugal</p>
+                </div>
+                <div class="col-4">
+                    <p>
+                        "Amazing location, convenient parking, and a lots of amenities and extras. I will definitely be returning here whenever I'm in town."
+                    </p>
+                    <span  style="color: black;"><b>Lia Peterson</b></span>
+                    <p style="color:#CACACA;font-size: 18px;">Sacramento, CA, USA</p>
+                </div>
+                <div class="col-4">
+                    <p>
+                        "We was impressed with how beautiful and clean this property was. The owner definitely goes the extra mile to help their guests!"
+                    </p>
+                    <span  style="color: black;"><b>Osahan Hall</b></span>
+                    <p style="color:#CACACA;font-size: 18px;">India, Portugal</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LATEST NEWS -->
+    <div style="background-color: #ECECEC;height: 900px;">
+        <center>
+            <h4 style="color: blue;margin-top:50px;font-family: cambria;"><br><br><br><br>LATEST NEWS</h4>
+            <h1>Keep up with our most <br>recent medical news</h1>
+            <p style="font-size: 15px;font-family: EB GAramond;color:#ACACAC;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta.</p>
+        </center>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div style="height: 500px;margin-right:3px;background-color: white;">
+                        <img src="images/blog-1.jpeg" width="353px" height="200px">
+                        <h4 class="picHeard" >Things Most People Don't Know About Medical Clinic</h4>
+                        <p class="picDiv">Adaptive height of each card this text is a bit longer to illustrate the. 
+                            Some quick example text to build on the card title bulk of the card's content and make up the.</p>
+                        <div >
+                            <img class="imgu1"src="images/u1.png" alt="u1">
+                            <div class="small">
+                                <p>Kelly Rowan <br>March 12, 2021 · 6 min read</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div style="height: 500px;margin-right:3px;background-color: white;">
+                        <img src="images/blog-3.jpeg" width="353px" height="200px">
+                        <h4 class="picHeard" >Things Most People Don't Know About Medical Clinic</h4>
+                        <p class="picDiv">Adaptive height of each card this text is a bit longer to illustrate the. 
+                            Some quick example text to build on the card title bulk of the card's content and make up the.</p>
+                            <div >
+                                <img class="imgu1" src="images/u2.png" alt="u1">
+                                <div class="small">
+                                    <p>Kelly Rowan <br>March 12, 2021 · 6 min read</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div style="height: 500px;margin-right:3px;background-color: white;">
+                        <img src="images/blog-4.jpeg" width="353px" height="200px">
+                        <h4 class="picHeard" >Things Most People Don't Know About Medical Clinic</h4>
+                        <p class="picDiv">Adaptive height of each card this text is a bit longer to illustrate the. 
+                            Some quick example text to build on the card title bulk of the card's content and make up the.</p>
+                            <div >
+                                <img class="imgu1" src="images/u3.png" alt="u1">
+                                <div class="small">
+                                    <p>Kelly Rowan <br>March 12, 2021 · 6 min read</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Subsribe -->
+    <div style="background-color: blue;">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1 style="color:white;margin-top: 70px;font-family: cursive;">Sign up for newsletter</h1>  
+                    <p style="font-family:  Helvetica;color: #ACACAC;">Sign up to our newsletter to get the latest news and offers.</p>  
+                </div>
+                <div class="col-6">
+                    <div style="background-color: #306EFF; color: white;margin-bottom: 80px;">
+                        <div class="input-group mb-3" style="margin-top: 100px;">
+                            <input type="text" class="form-control" placeholder="Your Email address..." id="mail" name="email">
+                            <div class="input-group-append">
+                              <button class="input-group-text" style="background-color: #FBB917;">SUBSCRIBE</button>
+                            </div>
+                          </div>
+                          
+                    <!-- <input class="form-control" type="text" placeholder="Enter Your Email adress.. " style="margin-top: 100px;">
+                    <button>SUBSCRIBE</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bottom of the sites -->
+    <div style="background-color: #000000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-3" style="margin-top: 105px;">
+                    <h6 style="color: white;">DOWNLOAD THE MEDICIL APP</h6>
+                    <p style="color: #6c757d; font-size: 15px;">Get new clients, grow your business.</p>
+                    <img src="images/google.png" width="120px" style="float: left;">
+                    <img src="images/apple.png" width="120px" style="float: right;">
+                </div>
+                <div class="col-3" style="margin-top: 100px;">
+                    <h4 style="color: white;margin-left: 30px;">COMPANY</h4>
+                    <ul>
+                        <li>About</li>
+                        <li>Blog</li>
+                        <li>Services</li>
+                        <li>Doctors</li>
+                        <li>Appointment</li>
+                    </ul>
+                </div>
+                <div class="col-3" style="margin-top: 100px;">
+                    <h4 style="color: white;margin-left: 30px;">QUICK LINKS</h4>
+                    <ul>
+                        <li>Login</li>
+                        <li>Signup</li>
+                        <li>Forgot</li>
+                        <li>FAQ</li>
+                        <li>Team & Conditions</li>
+                        <li>Privacy Policy</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="col-3" style="margin-top: 100px;">
+                    <!-- <i class="fas fa-comment-dots"></i> -->
+                    <div>
+                        <h5 style="color: white;">Chat with us</h5>
+                        <p style="color: #6c757d;">Chat live with one of our support specialists.</p>
+                    </div>
+                    <div>
+                        <h5 style="color: white;">Call us</h5>
+                        <p style="color: #6c757d;">Call us during normal business hours at (555) 892-9403.</p>
+                    </div>
+                    <div>
+                        <h5 style="color: white;">Location</h5>
+                        <p style="color: #6c757d;">74 Guild Street 542B, Great North Town Ludhiana.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer part -->
+
+    <footer style="background-color: #3D3C3A; width: 100%;height: 70px;">
+        <div>
+            <p style="float: left;margin: 20px 120px;color: white;font-size: 13px; ">Copyright © Your Website 2021</p>
+            <p style="float: right;margin: 20px 120px;color: white;font-size: 13px; ">
+                <a href="">Privacy · </a>
+                <a href="">Terms · </a>
+                <a href="">Contact .</a>
+            </p>
+        </div>
+    </footer>
     <!-- add the javascript -->
     <script src="hospital.js"></script>
 </body>
